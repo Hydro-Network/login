@@ -14,7 +14,7 @@ loginButton.addEventListener("click", (e) => {
 (url);
 
 var newWin = window.open
-function MyWindow1(){
+function MyWindow1()
 
 var win = window.open()
 var iframe = win.document.createElement('iframe')
@@ -24,9 +24,6 @@ iframe.style.border = "none";
 iframe.src = "https://hydro-network.gq.infinityfreeapp.com/gxmes.html";
 win.document.body.appendChild(iframe)
 location.replace("https://google.com/")
-}
-
-
     } else {
         loginErrorMsg.style.opacity = 1;
     }
